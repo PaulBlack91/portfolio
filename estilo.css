@@ -34,7 +34,7 @@ body{
   left: 0%;
   width: 100%;
   padding: 2rem 9%;
-  background-color: yellowgreen;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,16 +42,35 @@ body{
 }
 
 .navbar a {
-  font-size: 1.7 rem;
+  font-size: 1.7rem;
   color: var(--text-color);
   font-weight: 500;
-  margin-left: 3.5 rem;
+  margin-left: 3.5rem;
   transition: .3s;
 
 }
 
 .navbar a:hover,
-.navbar a.active{
+.navbar a.activo{
   color: var(--main-color);
+
+}
+
+#menu-icon{
+  font-size: 3.6rem;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+}
+
+section{
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
 
 }
