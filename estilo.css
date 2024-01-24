@@ -257,14 +257,18 @@ section {
 
 }
 
-.heading{
+.heading {
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
 
 }
 
-.about-img{
+span{
+  color: var(--main-color);
+}
+
+.about-img {
   position: relative;
   width: 25rem;
   height: 25rem;
@@ -272,10 +276,48 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  float: left;
+  
 }
 
-.posi{
-  float: right;
+.about-img img{
+  width: 90%;
+  border-radius: 50%;
+  border: .2rem solid var(--main-color);
+}
+
+.about-img .circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top: .2rem solid var(--second-bg-color);
+  border-bottom: .2rem solid var(--second-bg-color);
+  border-left: .2rem solid var(--main-color);
+  border-right: .2rem solid var(--main-color);
+
+}
+
+.about-content{
+
+  text-align: center;
+
+
+}
+
+.about-content h3{
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
+
+.btn-box.btns{
+  display: inline-block;
+  width: 15rem     ;
 
 }
