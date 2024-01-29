@@ -268,6 +268,8 @@ span{
   color: var(--main-color);
 }
 
+/* about styles */
+
 .about-img {
   position: relative;
   width: 25rem;
@@ -319,6 +321,8 @@ span{
   width: 15rem     ;
 
 }
+
+/* education style */
 
 .education{
   display: flex;
@@ -415,8 +419,91 @@ transition: 1s;
   padding-top: .5rem;
 }
 
-.container .skill-box .skill-title .img i{
 
-  font-size: 5rem;
+
+
+.skills-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+  /* background: red; */
+}
+
+.skills-container .skill-box{
+  padding: 1rem;
+  color: var(--text-color);
+  cursor: pointer
+}
+
+.skills-container .skill-box .skill-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 
 }
+
+
+.skills-container .skill-box .skill-title i{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  overflow: hidden;
+
+}
+
+/* .skills-container .skill-box .skill-title i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--main-color);
+  z-index: -1 ;
+  transition: 1s;
+  }
+
+  .skills-container .skill-box .skill-title i:hover::before{
+    width: 100%;  
+  
+  }  */
+
+/* .skills-container .skill-box .skill-title i::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: var(--second-bg-color);
+  border-radius: 45px 0 0 45px;
+  
+
+
+} */
+
+.skill-title h3{
+  color: var(--main-color);
+  margin: 0.5rem;
+
+}
+
+.skills-container .skill-box .skill-title .skil-icon{
+  width: 50px;
+  z-index: -2;
+}
+
+
