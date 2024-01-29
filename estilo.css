@@ -303,8 +303,6 @@ span{
 .about-content{
 
   text-align: center;
-
-
 }
 
 .about-content h3{
@@ -377,8 +375,7 @@ flex: 1 1 40rem;
   border-radius:  .6rem;
   margin-bottom: 2rem;
   overflow: hidden;
-  
-  
+   
 
 }
 .education-content .content::before{
@@ -416,4 +413,10 @@ transition: 1s;
 .education-content .content p{
   font-size: 1.6rem;
   padding-top: .5rem;
+}
+
+.container .skill-box .skill-title .img i{
+
+  font-size: 5rem;
+
 }
