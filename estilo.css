@@ -21,7 +21,7 @@
 html {
   font-size: 62.5;
   overflow-x: hidden;
-  
+
 }
 
 body {
@@ -55,7 +55,7 @@ body {
   font-weight: 600;
 }
 
-.navbar{
+.navbar {
   position: relative;
 }
 
@@ -105,6 +105,8 @@ section {
 }
 
 .home-content h1 {
+  position: relative;
+  display: inline-block;
   font-size: 5.6rem;
   font-weight: 700;
   line-height: 1.3;
@@ -149,7 +151,7 @@ section {
   animation: homeCursorText 6s linear infinite;
   animation-delay: 2s;
 
-  
+
 
 }
 
@@ -670,21 +672,22 @@ span {
 }
 
 /* ANIMATION RELOAD AND SCROLL  */
-.animate{
+.animate {
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: yellowgreen;
+  background-color: var(--bg-color);
   z-index: 98;
 }
 
 .logo .animate,
 .navbar .animate,
-#menu-icon .animate{
+#menu-icon .animate, 
+.home.show-animate .animate {
   animation: showRight 1s ease forwards;
-  animation-delay: calc(.3s * var(--i)) ;
+  animation-delay: calc(.3s * var(--i));
 }
 
 /* BREACKPOINTS */
@@ -883,15 +886,15 @@ span {
   }
 }
 
-@keyframes aboutSpinner{
-  100%{
+@keyframes aboutSpinner {
+  100% {
     transform: translate(-50%, -50%) rotate(360deg);
 
   }
 }
 
-@keyframes showRight{
-  100%{
+@keyframes showRight {
+  100% {
     width: 0;
   }
 }

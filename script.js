@@ -27,6 +27,10 @@ window.onscroll = () => {
         links.classList.remove('activo')
         document.querySelector('header nav a[href*= ' + id + ']').classList.add('activo')
       })
+      sec.classList.add('show-animate')
+    } 
+    else{
+      sec.classList.remove('show-animate')
     }
   })
 
