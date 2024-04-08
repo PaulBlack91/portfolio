@@ -355,15 +355,19 @@ span {
 }
 
 .about-content h3 {
+  position: relative;
+  display: inline-block;
   font-size: 2.5rem;
 }
 
 .about-content p {
+  position: relative;
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
 
 .btn-box.btns {
+  position: relative;
   display: inline-block;
   width: 15rem;
 
