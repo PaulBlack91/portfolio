@@ -303,7 +303,7 @@ section {
 }
 
 .heading {
-  position: relative;
+  position: relative;  
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -481,6 +481,12 @@ span {
 
 }
 
+.skills h2 {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 .skills-container {
   display: grid;
@@ -575,6 +581,12 @@ span {
 .contact {
   min-height: auto;
   padding: 7rem 2rem;
+}
+
+.contact h2{
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .contact form {
@@ -715,7 +727,9 @@ span {
 }
 
 .about.show-animate .animate.scroll,
-.education.show-animate .animate.scroll{
+.education.show-animate .animate.scroll,
+.skills.show-animate .animate.scroll,
+.contact.show-animate .animate.scroll{
   transition-delay: calc(.3s * var(--i)) ;
  width: 0;
 
