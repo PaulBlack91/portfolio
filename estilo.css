@@ -7,7 +7,7 @@
   text-decoration: none;
   border: none;
   outline: none;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -91,10 +91,12 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url(img/Fushiguro.png);
+  /* background: url(img/body.PNG);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right;
+  background-position: right; */
+  
+
 
 }
 
@@ -115,6 +117,8 @@ section {
 .home-content h1 span {
   color: var(--text-color)
 }
+
+
 
 .home-content .text-animate {
   position: relative;
@@ -694,9 +698,9 @@ span {
   z-index: 98;
 }
 
-.animate.home-img{
+/* .animate.home-img{
   width: 50%;
-}
+} */
 
 .logo .animate,
 .navbar .animate,
@@ -823,11 +827,7 @@ section:nth-child(odd) .animate.scroll{
 
   }
 
-  .home-imgHover {
-    pointer-events: none;
-    background-color: var(--bg-color);
-    opacity: .6;
-  }
+
 }
 
 @media(max-width: 520px) {
@@ -937,5 +937,17 @@ section:nth-child(odd) .animate.scroll{
 @keyframes showRight {
   100% {
     width: 0;
+  }
+}
+
+@keyframes floatimg {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-2.4rem );
+  }
+  100%{
+    transform: translateY(0);
   }
 }
