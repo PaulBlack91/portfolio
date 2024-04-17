@@ -280,21 +280,6 @@ section {
 
 }
 
-.img-hover {
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  width: 41%;
-  height: 100%;
-  background: transparent;
-  transition: 3s;
-
-}
-
-.img-hover:hover {
-  background: var(--bg-color);
-  opacity: .8;
-}
 
 .about {
   display: flex;
