@@ -664,18 +664,18 @@ span {
 }
 
 .contact .conteiner-contact{
-  align-items: center;
+  align-items: center;  
+  text-align: center;
+  display: flex;
+  height: 10vh;
+  width: 95vw;
+  justify-content: space-around;
+  padding: 7px;
+  font-size: 1.6rem;
   background-color: var(--bg-color);
   background: transparent;
   border-radius: .6rem;
   border: .2rem solid var(--main-color);
-  text-align: center;
-  display: flex;
-  height: 10vh;
-  justify-content: space-around;
-  padding: 7px;
-  width: 95vw;
-  font-size: 1.6rem;
   }
 
 .contact form {
@@ -707,7 +707,6 @@ span {
   background: transparent;
   border-radius: .6rem;
   border: .2rem solid var(--main-color);
-
 
 }
 
