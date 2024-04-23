@@ -649,10 +649,6 @@ span {
   color: var(--second-bg-color)
 }
 
-
-
-
-
 /* Section contact */
 
 
@@ -811,7 +807,9 @@ section:nth-child(odd) .animate.scroll{
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
-.contact.show-animate .animate.scroll{
+.contact.show-animate .animate.scroll,
+.project.show-animate .animate.scroll{
+
   transition-delay: calc(.3s * var(--i)) ;
  width: 0;
 
