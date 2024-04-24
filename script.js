@@ -44,3 +44,19 @@ window.onscroll = () => {
   menuIcon.classList.remove('bx-x')
   navbar.classList.remove('active')
 }
+
+
+
+
+document.querySelector('.btn-box.btns').addEventListener('click', function(event) {
+  var messageInput = document.getElementById('message');
+  var messageValue = messageInput.value.trim(); // Obtener el valor del mensaje y eliminar espacios en blanco al principio y al final
+
+  // Verificar si el campo de mensaje no está vacío
+  if (messageValue !== '') {
+    alert('Mensaje enviado');
+  } else {
+    alert('Por favor, escribe un mensaje antes de enviar.');
+    event.preventDefault(); // Evitar que el formulario se envíe si el campo de mensaje está vacío
+  }
+}); 
