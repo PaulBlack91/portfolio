@@ -1,156 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo.css" />
 
-    <title>Porfolio Paul Yasser</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilo.css" />
 
-    <!-- box icon -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+  <title>Porfolio Paul Yasser</title>
 
-  <body>
-    <!-- diseño del header -->
+  <!-- box icon -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <header class="header">
-      <a href="#" class="logo">
-        Paul. <span class="animate" style="--i: 1"></span>
+<body>
+  <!-- diseño del header -->
+
+  <header class="header">
+    <a href="#" class="logo">
+      Paul. <span class="animate" style="--i: 1"></span>
+    </a>
+
+    <div class="bx bx-menu" id="menu-icon">
+      <span class="animate" style="--i: 2"></span>
+    </div>
+
+    <nav class="navbar">
+      <a href="#home" class="activo">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+
+      <span class="active-nav"></span>
+      <span class="animate" style="--i: 2"></span>
+    </nav>
+  </header>
+
+  <!-- seccion del home -->
+  <section class="home show-animate" id="home">
+    <div class="home-content">
+      <h1>
+        Hi, I'm <span>Paul Yasser</span><span class="animate" style="--i: 2"></span>
+      </h1>
+      <div class="text-animate">
+        <h3>Full Stack Developer</h3>
+        <span class="animate" style="--i: 3"></span>
+      </div>
+
+      <p>
+        Soy un desarrollador con experiencia teórica y práctica, realizando
+        proyectos, con muchas ganas de seguir aprendiendo y seguir formándome
+        profesionalmente. Tengo capacidades y habilidades que fui puliendo a
+        lo largo de este proceso como liderazgo, manejo de grupo,
+        colaboración, trabajo de equipo, comunicación, organización, entre
+        otras.
+        <span class="animate" style="--i: 4"></span>
+      </p>
+
+      <div class="btn-box">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="img/Esperon Paul CV.pdf" class="btn" target="_blank">Download CV</a>
+        <span class="animate" style="--i: 5"></span>
+      </div>
+    </div>
+
+    <div class="home-sci">
+      <a href="https://www.facebook.com/pool.esperon/" target="_blank"><i class="bx bxl-facebook"></i></a>
+
+      <a href="https://www.linkedin.com/in/paul-yasser-esperon-035a94221/" target="_blank"><i
+          class="bx bxl-linkedin"></i></a>
+
+      <a href="https://www.instagram.com/paulblack91/" target="_blank"><i class="bx bxl-instagram"></i></a>
+
+      <a href="https://github.com/PaulBlack91" target="_blank">
+        <i class="bx bxl-github"></i>
       </a>
 
-      <div class="bx bx-menu" id="menu-icon">
-        <span class="animate" style="--i: 2"></span>
-      </div>
+      <span class="animate" style="--i: 6"></span>
+    </div>
 
-      <nav class="navbar">
-        <a href="#home" class="activo">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#project">Project</a>
-        <a href="#contact">Contact</a>
+    <span class="animate home-img" style="--i: 7"></span>
+  </section>
 
-        <span class="active-nav"></span>
-        <span class="animate" style="--i: 2"></span>
-      </nav>
-    </header>
+  <!-- sección About -->
 
-    <!-- seccion del home -->
-    <section class="home show-animate" id="home">
-      <div class="home-content">
-        <h1>
-          Hi, I'm <span>Paul Yasser</span
-          ><span class="animate" style="--i: 2"></span>
-        </h1>
-        <div class="text-animate">
-          <h3>Full Stack Developer</h3>
-          <span class="animate" style="--i: 3"></span>
-        </div>
+  <section class="about" id="about">
+    <h2 class="heading">
+      About <span>Me</span><span class="animate scroll" style="--i: 1"></span>
+    </h2>
 
-        <p>
-          Soy un desarrollador con experiencia teórica y práctica, realizando
-          proyectos, con muchas ganas de seguir aprendiendo y seguir formándome
-          profesionalmente. Tengo capacidades y habilidades que fui puliendo a
-          lo largo de este proceso como liderazgo, manejo de grupo,
-          colaboración, trabajo de equipo, comunicación, organización, entre
-          otras.
-          <span class="animate" style="--i: 4"></span>
-        </p>
+    <div class="about-img">
+      <img src="img/selfie.png" alt="" />
+      <span class="circle"></span>
+      <span class="animate scroll" style="--i: 2"></span>
+    </div>
+    <div class="about-content">
+      <h3>
+        ¿Por qué contratarme?
+        <span class="animate scroll" style="--i: 3"></span>
+      </h3>
+      <p>
+        Soy un desarrollador con mas de un año de experiencia. Tengo una mente
+        curiosa, una gran pasión y ganas de aprender. Tengo mucha energía,
+        iniciativa, proactivo, eficiente, comprometido y con una gran
+        capacidad para adaptarme a los cambios. Siempre me esfuerzo por
+        ofrecer los mejores resultados. Del mismo modo, estoy constantemente
+        buscando nuevos retos y oportunidades para hacer crecer mis
+        habilidades.
+        <span class="animate scroll" style="--i: 4"></span>
+      </p>
+    </div>
+  </section>
 
-        <div class="btn-box">
-          <a href="#contact" class="btn">Hire Me</a>
-          <a href="img/Esperon Paul CV.pdf" class="btn" target="_blank"
-            >Download CV</a
-          >
-          <span class="animate" style="--i: 5"></span>
-        </div>
-      </div>
+  <!-- Education section -->
 
-      <div class="home-sci">
-        <a href="https://www.facebook.com/pool.esperon/" target="_blank"
-          ><i class="bx bxl-facebook"></i
-        ></a>
+  <section class="education" id="education">
+    <h2 class="heading">
+      My <span>Journey</span>
+      <span class="animate scroll" style="--i: 1"></span>
+    </h2>
 
-        <a
-          href="https://www.linkedin.com/in/paul-yasser-esperon-035a94221/"
-          target="_blank"
-          ><i class="bx bxl-linkedin"></i
-        ></a>
-
-        <a href="https://www.instagram.com/paulblack91/" target="_blank"
-          ><i class="bx bxl-instagram"></i
-        ></a>
-
-        <a href="https://github.com/PaulBlack91" target="_blank">
-          <i class="bx bxl-github"></i>
-        </a>
-
-        <span class="animate" style="--i: 6"></span>
-      </div>
-
-      <span class="animate home-img" style="--i: 7"></span>
-    </section>
-
-    <!-- sección About -->
-
-    <section class="about" id="about">
-      <h2 class="heading">
-        About <span>Me</span><span class="animate scroll" style="--i: 1"></span>
-      </h2>
-
-      <div class="about-img">
-        <img src="img/selfie.png" alt="" />
-        <span class="circle"></span>
-        <span class="animate scroll" style="--i: 2"></span>
-      </div>
-      <div class="about-content">
-        <h3>
-          ¿Por qué contratarme?
-          <span class="animate scroll" style="--i: 3"></span>
+    <div class="education-row">
+      <div class="education-column">
+        <h3 class="title">
+          Education <span class="animate scroll" style="--i: 2"></span>
         </h3>
-        <p>
-          Soy un desarrollador con mas de un año de experiencia. Tengo una mente
-          curiosa, una gran pasión y ganas de aprender. Tengo mucha energía,
-          iniciativa, proactivo, eficiente, comprometido y con una gran
-          capacidad para adaptarme a los cambios. Siempre me esfuerzo por
-          ofrecer los mejores resultados. Del mismo modo, estoy constantemente
-          buscando nuevos retos y oportunidades para hacer crecer mis
-          habilidades.
-          <span class="animate scroll" style="--i: 4"></span>
-        </p>
-      </div>
-    </section>
 
-    <!-- Education section -->
+        <div class="education-box">
+          <div class="education-content">
 
-    <section class="education" id="education">
-      <h2 class="heading">
-        My <span>Journey</span>
-        <span class="animate scroll" style="--i: 1"></span>
-      </h2>
-
-      <div class="education-row">
-        <div class="education-column">
-          <h3 class="title">
-            Education <span class="animate scroll" style="--i: 2"></span>
-          </h3>
-
-          <div class="education-box">
-            <div class="education-content">
-
-              <a href="https://certificates.soyhenry.com/new-cert?id=5e4fabfa4a15c0800665056ef0c3d1d0c6e4add180d29310edfc9576a4a5bfcf" target="_blank">
+            <a href="https://certificates.soyhenry.com/new-cert?id=5e4fabfa4a15c0800665056ef0c3d1d0c6e4add180d29310edfc9576a4a5bfcf"
+              target="_blank">
               <div class="content">
                 <div class="year">
                   <i class="bx bxs-calendar"></i> 2022 - 2023
@@ -163,208 +148,207 @@
                   Github.
                 </p>
               </div>
-            </div>
+          </div>
           </a>
-            <div class="education-content">
-              <div class="content">
-                <div class="year">
-                  <i class="bx bxs-calendar"></i> 2018 - 2019
-                </div>
-                <h3>Instituto superior politecnico 2024 - en curso</h3>
-                <p>
-                  Especialidad: Desarrollo en Software, Ciencias de Datos e
-                  Inteligencia Artificial.
-                </p>
+          <div class="education-content">
+            <div class="content">
+              <div class="year">
+                <i class="bx bxs-calendar"></i> 2018 - 2019
               </div>
+              <h3>Instituto superior politecnico 2024 - en curso</h3>
+              <p>
+                Especialidad: Desarrollo en Software, Ciencias de Datos e
+                Inteligencia Artificial.
+              </p>
             </div>
-            <span class="animate scroll" style="--i: 3"></span>
           </div>
-        </div>
-        <div class="education-column">
-          <h3 class="title">
-            Services <span class="animate scroll" style="--i: 5"></span>
-          </h3>
-
-          <div class="education-box">
-            <div class="education-content">
-              <div class="content">
-                <div class="year"></div>
-                <h3>Desarrollo de back-end</h3>
-                <p>
-                  Construir la lógica del lado del servidor y las bases de datos
-                  necesarias para el funcionamiento de la aplicación web. Esto
-                  incluye el manejo del almacenamiento de datos, la
-                  autenticación de usuarios, la configuración del servidor y
-                  más. Lenguajes que use del lado del servidor: Node.js, para
-                  crear la lógica de back-end y manejar las operaciones del lado
-                  del servidor. Server Frameworks: uso de frameworks como
-                  Express.js (Node.js) para agilizar el desarrollo back-end.
-                </p>
-              </div>
-            </div>
-            <div class="education-content">
-              <div class="content">
-                <div class="year"></div>
-                <h3>Desarrollo front-end</h3>
-                <p>
-                  Creación de interfaces de usuario utilizando HTML, CSS y
-                  JavaScript. Esto implica diseñar y desarrollar los componentes
-                  visuales de un sitio web con los que los usuarios interactúan
-                  directamente. Diseñar la interfaz de usuario centrándose en la
-                  experiencia, la estética y el diseño responsivo para
-                  garantizar que la aplicación funcione bien en diferentes
-                  dispositivos y tamaños de pantalla. Front-End Frameworks: uso
-                  de bibliotecas y marcos como React o Next.js para crear
-                  interfaces de usuario dinámicas e interactivas.
-                </p>
-              </div>
-            </div>
-            <div class="education-content">
-              <div class="content">
-                <div class="year"></div>
-                <h3>Gestión de base de datos</h3>
-                <p>
-                  Diseño de bases de datos: diseño de la estructura y el esquema
-                  de bases de datos para almacenar y administrar datos de manera
-                  eficiente para la aplicación web. Integración de bases de
-                  datos: conectar la aplicación a bases de datos e implementar
-                  operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para
-                  administrar datos.
-                </p>
-              </div>
-            </div>
-            <span class="animate scroll" style="--i: 6"></span>
-          </div>
+          <span class="animate scroll" style="--i: 3"></span>
         </div>
       </div>
-    </section>
-    <!-- skills section desing -->
+      <div class="education-column">
+        <h3 class="title">
+          Services <span class="animate scroll" style="--i: 5"></span>
+        </h3>
 
-    <section class="skills" id="skills">
-      <h2 class="heading">
-        My <span>Skills</span
-        ><span class="animate scroll" style="--i: 1"></span>
-      </h2>
-
-      <div class="skills-container">
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 2"></span>
-            <div class="img">
-              <i class="bx bxl-html5"></i>
+        <div class="education-box">
+          <div class="education-content">
+            <div class="content">
+              <div class="year"></div>
+              <h3>Desarrollo de back-end</h3>
+              <p>
+                Construir la lógica del lado del servidor y las bases de datos
+                necesarias para el funcionamiento de la aplicación web. Esto
+                incluye el manejo del almacenamiento de datos, la
+                autenticación de usuarios, la configuración del servidor y
+                más. Lenguajes que use del lado del servidor: Node.js, para
+                crear la lógica de back-end y manejar las operaciones del lado
+                del servidor. Server Frameworks: uso de frameworks como
+                Express.js (Node.js) para agilizar el desarrollo back-end.
+              </p>
             </div>
-            <h3>HTML 5</h3>
           </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 3"></span>
-            <div class="img">
-              <i class="bx bxl-css3"></i>
+          <div class="education-content">
+            <div class="content">
+              <div class="year"></div>
+              <h3>Desarrollo front-end</h3>
+              <p>
+                Creación de interfaces de usuario utilizando HTML, CSS y
+                JavaScript. Esto implica diseñar y desarrollar los componentes
+                visuales de un sitio web con los que los usuarios interactúan
+                directamente. Diseñar la interfaz de usuario centrándose en la
+                experiencia, la estética y el diseño responsivo para
+                garantizar que la aplicación funcione bien en diferentes
+                dispositivos y tamaños de pantalla. Front-End Frameworks: uso
+                de bibliotecas y marcos como React o Next.js para crear
+                interfaces de usuario dinámicas e interactivas.
+              </p>
             </div>
-            <h3>CSS</h3>
           </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 4"></span>
-            <div class="img">
-              <i class="bx bxl-react"></i>
+          <div class="education-content">
+            <div class="content">
+              <div class="year"></div>
+              <h3>Gestión de base de datos</h3>
+              <p>
+                Diseño de bases de datos: diseño de la estructura y el esquema
+                de bases de datos para almacenar y administrar datos de manera
+                eficiente para la aplicación web. Integración de bases de
+                datos: conectar la aplicación a bases de datos e implementar
+                operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para
+                administrar datos.
+              </p>
             </div>
-            <h3>React</h3>
           </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 2"></span>
-            <div class="img">
-              <i class="bx bxl-nodejs"></i>
-            </div>
-            <h3>Node JS</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 3"></span>
-            <div class="img">
-              <i class="bx bxl-postgresql"></i>
-            </div>
-            <h3>Postgresql</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 4"></span>
-            <div class="img">
-              <i class="bx bxl-javascript"></i>
-            </div>
-            <h3>Java Script</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 2"></span>
-            <div class="img">
-              <i class="bx bxl-redux"></i>
-            </div>
-            <h3>Redux</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 3"></span>
-            <div class="img">
-              <i class="bx bxl-git"></i>
-            </div>
-            <h3>Git</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title">
-            <span class="animate scroll" style="--i: 4"></span>
-            <div class="img">
-              <i class="bx bxl-typescript"></i>
-            </div>
-            <h3>Type Script</h3>
-          </div>
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
-          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+          <span class="animate scroll" style="--i: 6"></span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- skills section desing -->
 
-    <section class="project" id="project">
-      <h2 class="heading">
-        <span>Projects</span><span class="animate scroll" style="--i: 1"></span>
-      </h2>
+  <section class="skills" id="skills">
+    <h2 class="heading">
+      My <span>Skills</span><span class="animate scroll" style="--i: 1"></span>
+    </h2>
+
+    <div class="skills-container">
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 2"></span>
+          <div class="img">
+            <i class="bx bxl-html5"></i>
+          </div>
+          <h3>HTML 5</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 3"></span>
+          <div class="img">
+            <i class="bx bxl-css3"></i>
+          </div>
+          <h3>CSS</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 4"></span>
+          <div class="img">
+            <i class="bx bxl-react"></i>
+          </div>
+          <h3>React</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 2"></span>
+          <div class="img">
+            <i class="bx bxl-nodejs"></i>
+          </div>
+          <h3>Node JS</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 3"></span>
+          <div class="img">
+            <i class="bx bxl-postgresql"></i>
+          </div>
+          <h3>Postgresql</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 4"></span>
+          <div class="img">
+            <i class="bx bxl-javascript"></i>
+          </div>
+          <h3>Java Script</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 2"></span>
+          <div class="img">
+            <i class="bx bxl-redux"></i>
+          </div>
+          <h3>Redux</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 3"></span>
+          <div class="img">
+            <i class="bx bxl-git"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-title">
+          <span class="animate scroll" style="--i: 4"></span>
+          <div class="img">
+            <i class="bx bxl-typescript"></i>
+          </div>
+          <h3>Type Script</h3>
+        </div>
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti iusto fugiat impedit
+          voluptates corporis numquam amet, consequatur tempore, ab delectus!</p> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <h2 class="heading">
+      <span>Projects</span><span class="animate scroll" style="--i: 1"></span>
+    </h2>
 
 
-      <div class="portfolio-container">
-        <a href="https://github.com/PaulBlack91/PI-Dogs" target="_blank">
+    <div class="portfolio-container">
+      <a href="https://github.com/PaulBlack91/PI-Dogs" target="_blank">
         <div class="portfolio-box">
           <img src="img/pi-dogs.png" alt="" />
           <div class="portfolio-layer">
@@ -375,8 +359,8 @@
           <span class="animate scroll" style="--i: 2"></span>
         </div>
       </a>
-        <div class="portfolio-box">
-          <a href="https://cava-verdot.vercel.app/" target="_blank">
+      <div class="portfolio-box">
+        <a href="https://cava-verdot.vercel.app/" target="_blank">
           <img src="img/cava.png" alt="" />
           <div class="portfolio-layer">
             <h4>Proyecto Final</h4>
@@ -385,98 +369,98 @@
           </div>
           <span class="animate scroll" style="--i: 3"></span>
         </a>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/portfolio.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>Mi Portafolio</h4>
-            <p>Todo lo que ves.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-          </div>
-          <span class="animate scroll" style="--i: 4"></span>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div>
-        <h2 class="heading">
-          Contact <span>Me!</span>
-          <div class="conteiner-contact">
-            <h1>Call me:</h1>
-            <p>+54-351-3480303</p>
-            <h1>E-mail:</h1>
-            <p>paulyasser.dev@gmail.com</p>
-          </div>
-          <span class="animate scroll" style="--i: 1"></span>
-        </h2>
       </div>
 
+      <div class="portfolio-box">
+        <img src="img/portfolio.png" alt="" />
+        <div class="portfolio-layer">
+          <h4>Mi Portafolio</h4>
+          <p>Todo lo que ves.</p>
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+        <span class="animate scroll" style="--i: 4"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div>
       <h2 class="heading">
-        Talk to<span> Me!</span>
-
+        Contact <span>Me!</span>
+        <div class="conteiner-contact">
+          <h1>Call me:</h1>
+          <p>+54-351-3480303</p>
+          <h1>E-mail:</h1>
+          <p>paulyasser.dev@gmail.com</p>
+        </div>
         <span class="animate scroll" style="--i: 1"></span>
       </h2>
+    </div>
 
-      <form action="#">
-        <div class="input-box">
-          <div class="input-field">
-            <input type="text" placeholder="Full Name" required />
-            <span class="focus"></span>
-          </div>
-          <div class="input-field">
-            <input type="text" placeholder="Email Address" required />
-            <span class="focus"></span>
-          </div>
-          <span class="animate scroll" style="--i: 3"></span>
-        </div>
+    <h2 class="heading">
+      Talk to<span> Me!</span>
 
-        <div class="input-box">
-          <div class="input-field">
-            <input type="number" placeholder="Mobile Number" required />
-            <span class="focus"></span>
-          </div>
-          <div class="input-field">
-            <input type="text" placeholder="Email Subject" required />
-            <span class="focus"></span>
-          </div>
-          <span class="animate scroll" style="--i: 5"></span>
-        </div>
+      <span class="animate scroll" style="--i: 1"></span>
+    </h2>
 
-        <div class="textarea-field">
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
+    <form action="https://formsubmit.co/paulyasser.dev@gmail.com" method="POST">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" name="name" placeholder="Full Name" required />
           <span class="focus"></span>
-          <span class="animate scroll" style="--i: 7"></span>
         </div>
 
-        <div class="btn-box btns">
-          <button class="btn" type="submit">Submit</button>
-          <span class="animate scroll" style="--i: 9"></span>
+        <div class="input-field">
+          <input type="text" name="email" placeholder="Email Address" required />
+          <span class="focus"></span>
         </div>
-      </form>
-    </section>
-
-    <!-- footer design -->
-
-    <footer class="footer">
-      <div class="footer-text">
-        <p>
-          Copyright &copy; 2024 by Paul Yasser Esperon | All Rigths Reserved
-        </p>
+        <span class="animate scroll" style="--i: 3"></span>
       </div>
 
-      <div class="footer-iconTop">
-        <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
-      </div>
-    </footer>
+      <div class="input-box">
+        <div class="input-field">
+          <input type="number" name="phone" placeholder="Mobile Number" required />
+          <span class="focus"></span>
+        </div>
 
-    <script src="script.js"></script>
-  </body>
+        <div class="input-field">
+          <input type="text" name="subject" placeholder="Email Subject" required />
+          <span class="focus"></span>
+        </div>
+        <span class="animate scroll" style="--i: 5"></span>
+      </div>
+
+      <div class="textarea-field">        
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <span class="focus"></span>
+        <span class="animate scroll" style="--i: 7"></span>
+      </div>
+
+      <div class="btn-box btns">
+
+        <input class="btn" type="submit" value="submit">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+        <input type="hidden" name="_captcha" value="false">
+        <span class="animate scroll" style="--i: 9"></span>
+      </div>
+    </form>
+  </section>
+
+  <!-- footer design -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>
+        Copyright &copy; 2024 by Paul Yasser Esperon | All Rigths Reserved
+      </p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
