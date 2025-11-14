@@ -29,6 +29,14 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   padding-top: 60px;
+  opacity: 0;
+  animation: fadeInPage 0.5s ease-in forwards;
+}
+
+@keyframes fadeInPage {
+  to {
+    opacity: 1;
+  }
 }
 
 .header {
@@ -408,15 +416,17 @@ a {
 }
 
 .education .education-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  width: 100%;
+  max-width: 1400px;
 
 }
 
 .education-row .education-column {
-  flex: 1 1 40rem;
+  flex: 1 1 100%;
+  min-width: 0;
 }
 
 .education-column .title {
@@ -829,13 +839,13 @@ a {
 .navbar .animate,
 #menu-icon .animate, 
 .home.show-animate .animate{
-  animation: showRight 1s ease forwards;
-  animation-delay: calc(.1s * var(--i));
+  animation: showRight 0.6s ease forwards;
+  animation-delay: calc(.05s * var(--i));
 }
 
 .animate.scroll{
-  transition: 1s ease;
-  transition-delay: calc(.1s / var(--i)) ;
+  transition: 0.5s ease;
+  transition-delay: calc(.05s / var(--i)) ;
   animation: none;
 
 }
@@ -853,7 +863,7 @@ section:nth-child(odd) .animate.scroll{
 .skills.show-animate .animate.scroll,
 .project.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll{
-  transition-delay: calc(.3s * var(--i)) ;
+  transition-delay: calc(.15s * var(--i)) ;
  width: 0;
 
 }
@@ -884,6 +894,11 @@ section:nth-child(odd) .animate.scroll{
 
   .footer {
     padding: 2rem 4%;
+  }
+
+  .education .education-row {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
 }
@@ -956,6 +971,10 @@ section:nth-child(odd) .animate.scroll{
     transform: translateX(0);
     transition-delay: .25s;
 
+  }
+
+  .education .education-row {
+    grid-template-columns: 1fr;
   }
 
   .portfolio-container{
